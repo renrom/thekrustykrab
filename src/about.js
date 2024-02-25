@@ -7,7 +7,6 @@ export default function aboutPage() {
     const newContentLine1 = document.createTextNode('The Krusty Krab is a fictional fast food restaurant in the American animated television series SpongeBob SquarePants.');
     const newContentLine2 = document.createTextNode('It is famous for its signature burger, the Krabby Patty, the formula to which is a closely guarded trade secret.');
     const imageContent = document.createElement('img');
-
     imageContent.src = plankton;
     imageContent.style.objectFit = 'contain';
     imageContent.style.width = '100%'
