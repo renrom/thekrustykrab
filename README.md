@@ -11,10 +11,13 @@ Assignment from The Odin Project to create a restaurant page with only javascrip
 
 ## Features
 
+It is just a page without much features. it is for understanding the use of modules in JS and to use webpack to compile the code.
+
 
 ## Technologies Used
 
 JavaScript, HTML, CSS
+
 
 ## Credits
 
