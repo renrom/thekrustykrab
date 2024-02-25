@@ -1,6 +1,6 @@
 # The Krusty Krab
 
-Restuarant page
+Restaurant page
 
 ## Description
 
@@ -8,6 +8,7 @@ Assignment from The Odin Project to create a restaurant page with only javascrip
 
 ## Visit the page
 
+[Live Page](https://renrom.github.io/thekrustykrab/)
 
 ## Features
 
