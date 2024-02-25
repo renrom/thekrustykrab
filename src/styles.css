@@ -1,0 +1,45 @@
+header {
+
+    height: 60px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+
+}
+
+nav {
+    opacity: 1;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 50px;
+    gap: 15px;
+    padding-right: 50px;
+}
+
+button {
+    opacity: 1;
+    height: 50px;
+    border: 0;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 6%;
+    background-color: red;
+    color: #1b1c79;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+
+.content-wrapper {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
