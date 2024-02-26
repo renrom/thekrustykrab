@@ -6,6 +6,8 @@ export default function homePage() {
     
     const newContentLine1 = document.createTextNode('Welcome to the Krusty Krab!');
     const newContentLine2 = document.createTextNode('Come Spend Your Money Here!');
+    const newContentLine3 = document.createTextNode('Open every 24/7.');
+    
     const imageContent = document.createElement('img');
     imageContent.src = Krab;
     imageContent.style.objectFit = 'contain';
@@ -14,7 +16,7 @@ export default function homePage() {
     
 
     tabTextP.style.height = '300px';    
-    tabTextP.style.width = '400px';    
+    tabTextP.style.width = '250px';    
 
     const btnHome = document.querySelector('#btnhome');
     const btnAbout = document.querySelector('#btnabout');
@@ -35,6 +37,8 @@ export default function homePage() {
     tabTextP.appendChild(document.createElement("br"));
     tabTextP.appendChild(newContentLine2);
     tabTextP.appendChild(document.createElement("br"));
+    tabTextP.appendChild(document.createElement("br"));
+    tabTextP.appendChild(newContentLine3);
     tabTextP.appendChild(imageContent);
     content.appendChild(tabTextP);
     

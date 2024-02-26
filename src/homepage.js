@@ -13,6 +13,7 @@ function fillHomePage() {
     const contentWrapper = document.querySelector('.content-wrapper');
     const button = document.querySelectorAll('button');
 
+
     btnHome.style.color = 'red';
     btnHome.style.backgroundColor = 'wheat';
 
@@ -41,7 +42,7 @@ function fillHomePage() {
     content.style.paddingLeft = '20px';
     content.style.paddingRight = '20px';
 
-    content.style.width = '400px';
+    content.style.width = '250px';
     content.style.height = '500px';
     content.style.opacity = '0.8';
     content.style.borderRadius = '10%';

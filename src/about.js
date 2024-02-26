@@ -12,8 +12,8 @@ export default function aboutPage() {
     imageContent.style.width = '100%'
     imageContent.style.height = '100%'
     
-    tabTextP.style.height = '300px';    
-    tabTextP.style.width = '400px';    
+    tabTextP.style.height = '250px';    
+    tabTextP.style.width = '250px';    
 
     
     const btnHome = document.querySelector('#btnhome');
@@ -34,7 +34,6 @@ export default function aboutPage() {
     tabTextP.appendChild(document.createElement("br"));
     tabTextP.appendChild(document.createElement("br"));
     tabTextP.appendChild(newContentLine2);
-    tabTextP.appendChild(document.createElement("br"));
     tabTextP.appendChild(imageContent);
     content.appendChild(tabTextP);
 
