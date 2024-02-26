@@ -9,6 +9,7 @@ export default function menuPage() {
   const btnMenu = document.querySelector('#btnmenu');
 
   const menuitemtext = '1 for $5,-'
+  
   btnMenu.style.color = 'red';
   btnMenu.style.backgroundColor = 'wheat';
   btnAbout.style.color = 'wheat';
